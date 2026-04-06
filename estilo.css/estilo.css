@@ -1,0 +1,23 @@
+/* Estilo para la página principal */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eca1a1;
+}
+
+h1 {
+    color: #d63131;
+}
+
+p {
+    color: #666666;
+}
+h2 {
+    color: #155cb9;
+}
+table {
+    color: #666666;
+    width: 50%;
+    border-collapse: collapse;
+}
