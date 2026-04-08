@@ -4,38 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilo.css/estilo.css">
 </head>
+
+<body>
 <!--este es el titulo pincipal -->
-<h1 style="color:brown;">Display</h1>
+<div class="fixed">
+    <div class ="container">
+        <h1 style="color:rgb(23, 25, 161);">Display</h1>
+    <table>
+        <tr>
+            <th>Servicio</th>
+            <th>Producto</th>
+            <th>Contacto</th>
+            <th>Ubicación</th>
+        </tr>
+    </table>
+    </div>
+</div>
+</div>
+
 <!--este es un ceparador de liena -->
-<hr>
- <h2 style="color: blue;">Servio Tecnico</h2>
+
+<br>
+<h2 style="color: blue;">Servio Tecnico</h2>
 <p style="border: 1px solid #a13131; padding: 10px;">
     Display se dedica a dispositivos mobiles y computadoras 
     se basa a servicio tecnico y venta de productos para sus dispositivos mobiles 
 </p>
-<h2 style ="color:green;">Productos</h2>
-<ol>
+
+<h2 style="color:green;">Productos</h2>
+<ol style="border: 1px solid #a13131;">
     <li>Reparacion de pantallas</li>
     <li>Reparacion de baterias</li>
     <li>Reparacion de camaras</li>
     <li>Reparacion de altavoces</li>
     <li>Reparacion de botones</li>
 </ol>
+
 <div style="background-color: #65e3e7; padding: 20px; margin-top: 20px;">
     <h2>Contacto</h2>
     <p>Para más información, contáctenos al correo electrónico: oscarnuunez@gmail.com</p>
     <p>También puedes llamarnos al número: 0981018934</p>
-
 </div>
+
 <div style="background-color: #86f5e2; padding: 20px; margin-top: 20px;">
     <h2>Ubicación</h2>
-    <p>Estamos ubicados en la ciudad de Quito, Ecuador
+    <p>
+        Estamos ubicados en la ciudad de Quito, Ecuador
         En la Av. rancho bajo n76
     </p>
 </div>
-<div>
+
+<div class ="table">
 <table border="1" style="width: 50%; margin-top: 20px;">
     <tr>
         <th>Servicio</th>
@@ -56,6 +77,7 @@
         <td>Reparación de botones</td>
     </tr>
 </table>
+</div>
 <table border="1" style="width:50%; margin-top: 20px;">
     <tr>
         <th>Producto</th>
@@ -77,6 +99,7 @@
     </tr>
 </table>
 </div>
+
 <select name="servicios" id="servicios" style="margin-top: 20px;">
     <option value="">Seleccione un servicio</option>
     <option value="pantallas">Reparación de pantallas</option>
@@ -84,43 +107,49 @@
     <option value="camaras">Reparación de cámaras</option>
     <option value="altavoces">Reparación de altavoces</option>
     <option value="botones">Reparación de botones</option>
-    </select>
-    <h2>formulario de datos</h2>
-    <form action="">
-        <div>
-         <label for="nombre">Nombre:</label>
+</select>
+
+<h2>formulario de datos</h2>
+<form action="">
+    <div>
+        <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre">
-        </div>
-        <div>
-         <label for="apellido">Apellido:</label>
+    </div>
+    <div>
+        <label for="apellido">Apellido:</label>
         <input type="text" id="apellido" name="apellido">
-        </div>
-        <div>
-         <label for="correo">Correo electrónico:</label>
+    </div>
+    <div>
+        <label for="correo">Correo electrónico:</label>
         <input type="email" id="correo" name="correo">
-        </div>
-            <div>
-            <label for="telefono">Número de teléfono:</label>
-            <input type="tel" id="telefono" name="telefono">
-            </div>
-    </form>
+    </div>
+    <div>
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+    </div>
+
+    <!-- CORRECCIÓN: botón submit dentro del formulario -->
     <div>
         <input type="submit" value="Enviar">
     </div>
-    <div>
-        <h3>ir a youtube</h3>
-        <a href="https://youtu.be/MoN9ql6Yymw?si=sXI40bSQKrKBYb9d" target="_blank">Ver en YouTube</a>
-    </div>
-    <div>
-        <h1>pajina de contacto</h1>
-        <a href="contacto.html">ir a contactos</a>
-        
-      </div>
-      <pag>nombre=oscar nuñez </pag>
-      <br>
-      <pag>edad=N/A</pag>
-<img src="display.jpg.jpg" alt="Imagen de Display" style="width: 300px; margin-top: 20px;">
-<body>
-    
+</form>
+
+<div>
+    <h3>ir a youtube</h3>
+    <a href="https://youtu.be/MoN9ql6Yymw?si=sXI40bSQKrKBYb9d" target="_blank">Ver en YouTube</a>
+</div>
+
+<div>
+    <h1>pajina de contacto</h1>
+    <a href="contacto.html">ir a contactos</a>
+</div>
+
+<!-- CORRECCIÓN: etiqueta no válida -->
+<p>nombre=oscar nuñez</p>
+<br>
+<p>edad=N/A</p>
+
+<img src="display.jpg.jpg" alt="Imagen de Display" style="width: 500px; margin-top: 100px;">
+
 </body>
 </html>
