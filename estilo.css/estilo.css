@@ -3,7 +3,7 @@ body {
     align-items: center;
     margin:10px;
     padding: 0;
-    background-color: #3dbe7e3b;
+    background-color: #5dc5ee85;
 }
 
 p {
@@ -50,3 +50,27 @@ table {
     padding: 8px;
     text-align: right;
 }    
+.div.contenedor.flotado.contenedor1 {
+   border:3px dashed #e24e13;
+   margin: auto;
+   padding: 1PX;
+
+   
+}
+.div.contenedor.flotado.contenedor2 {
+   border: 3px dashed #e24e13;
+   float: right;
+}
+.div.contenedor.contenedor3 {
+ clear: both;
+    border: 3px dashed #e24e13;
+    margin: auto;
+}
+.menu li:hover{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e65c5c;
+    text-align: right;
+}
